@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monolito Maya</title>
+    <header>chris</header>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #facd6c;
+        }
+        .p{
+
+        }
+        .monolith {
+            width: 155px;
+            height: 400px;
+            background: #8b4513;
+            border: 2px solid #5a3211;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        .post {
+            width: 150px;
+            height: 120px;
+            top: -120px;
+            background: #8b4513;
+            border: 2px solid #5a3211;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        .post::before {
+            content: "";
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 130px;
+            height: 20px;
+            background: #5a3211;
+            border-radius: 5px;
+        }
+        .post::after {
+            content: "";
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            right: 20px;
+            width: 40px;
+            height: 20px;
+            background: #5a3211;
+            border-radius: 5px;
+        }
+        .cabeza{
+            
+            content: "";
+            position: absolute;
+            top: -70px;
+            left: 90px;
+            width: 40px;
+            height: 20px;
+            background: #572702;
+            border-radius: 5px;
+        }
+        .cabeza::before{
+            
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: -30px;
+            width: 20px;
+            height: 40px;
+            background: #5e2c03;
+            border-radius: 5px;
+        }
+        .cabeza::after{
+            
+            content: "";
+            position: absolute;
+            top: 50px;
+            left: -50px;
+            width: 80px;
+            height: 20px;
+            background: #311802;
+            border-radius: 5px;
+        }
+        .monolith::before {
+            content: "";
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 130px;
+            height: 20px;
+            background: #5a3211;
+            border-radius: 5px;
+        }
+        .monolith::after {
+            content: "";
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            width: 130px;
+            height: 20px;
+            background: #5a3211;
+            border-radius: 5px;
+        }
+        .detail {
+            position: absolute;
+            top: 100px;
+            left: 15px;
+            width: 120px;
+            height: 200px;
+            background: #734d26;
+            border: 2px solid #5a3211;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>chris</header>
+    <div class="monolith">
+        <div class="detail"></div>
+             <div class="post"></div>
+                  <div class="cabeza"></div>
+    </div>
+</body>
+</html>
